@@ -36,3 +36,8 @@ springdoc:
     tagsSorter: alpha
     tryItOutEnabled: true
 
+jwt:
+  secret: mysecretkeymysecretkeymysecretkey
+  expiration: 3600000
+
+
