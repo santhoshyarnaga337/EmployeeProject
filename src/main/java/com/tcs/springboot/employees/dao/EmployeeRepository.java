@@ -6,6 +6,4 @@ import com.tcs.springboot.employees.entity.Employee;
 
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 
-    // that's it ... no need to write any code LOL!
-
 }
