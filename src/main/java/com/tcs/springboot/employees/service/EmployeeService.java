@@ -7,15 +7,18 @@ import java.util.List;
 
 public interface EmployeeService {
 
-    List<Employee> findAll();
+	List<Employee> findAll();
 
-    Employee findById(long theId);
+	Employee findById(long theId);
 
-    Employee save(EmployeeRequest employeeRequest);
+	Employee save(EmployeeRequest employeeRequest);
 
-    Employee update(long id, EmployeeRequest employeeRequest);
+	Employee update(long id, EmployeeRequest employeeRequest);
 
-    Employee convertToEmployee(long id, EmployeeRequest employeeRequest);
+	Employee convertToEmployee(long id, EmployeeRequest employeeRequest);
 
-    void deleteById(long theId);
+	void deleteById(long theId);
+
+	List<Employee> findByLastName(String lastName);
+
 }
